@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Food Bank 8275</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar">
+    <div class="logo"><i class="fa fa-cookie-bite"></i>
+      <span>BitesOf </span><span>Hope</span>....
+    </div>
+    <div class="toggle">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+
+    <div class="menu">
+      <ul class="item">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#mission">Mission</a></li>
+        <li><a href="#Donation">Donate</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact_us">Contact Us</a></li>
+        <section id="box1">
+          <input type="serach" placeholder="search for dish" class="in" id="searchbar" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </section>
+      </ul>
+    </div>
+  </nav>
+  <!-- nav end -->
+  <!-- home -->
+  <section id="home">
+    <div class="logo2"> <img src="images/don1.png" alt=""></div>
+    <div class="title">
+      <div class="t1">Serving Others with Love.</div>
+      <div class="hope">
+        <span>HOPES ON</span> <br><span>PLATE</span>
+      </div>
+      <div class="t2">Spread Love,Give Hope</div>
+      <a href="#Donation" class="btn">Donate</a>
+    </div>
+  </section>
+  <!-- end home -->
+  <section id="services">
+    <span class="stitle">How We Can Help:)</span>
+    <div class="mains">
+      <div class="submain">
+        <div class="service">
+          <div class="s-sub1"><img src="images/food.jpg" alt=""></div>
+          <div class="s-sub2">
+            <span>Leftovers Save Lives.</span>
+            <span>8275</span>
+            <span> <a href="#Donation" class="btn1">Donate</a></span>
+          </div>
+        </div>
+        <div class="service">
+          <div class="s-sub1"><img src="images/fund.jpg" alt=""></div>
+          <div class="s-sub2">
+            <span>Contribute, Make a Difference.</span>
+            <span>7582</span>
+            <span> <a href="#Donation" class="btn1">Donate</a></span>
+          </div>
+        </div>
+        <div class="service">
+          <div class="s-sub1"><img src="images/cloth.jpeg" alt=""></div>
+          <div class="s-sub2">
+            <span>Donate Attire, Create Smiles.</span>
+            <span>2875</span>
+            <span> <a href="#Donation" class="btn1">Donate</a></span>
+          </div>
+        </div>
+        <div class="service">
+          <div class="s-sub1"><img src="images/stationary.jpg" alt=""></div>
+          <div class="s-sub2">
+            <span>Pens, Paper, Change the World.</span>
+            <span>5782</span>
+            <span><a href="#Donation" class="btn1">Donate</a></span>
+          </div>
+        </div>
+        <div class="service">
+          <div class="s-sub1"><img src="images/shoes.jpg" alt=""></div>
+          <div class="s-sub2">
+            <span>Sole to Soul Connection.</span>
+            <span>8572</span>
+            <span> <a href="#Donation" class="btn1">Donate</a></span>
+          </div>
+        </div>
+        <div class="service">
+          <div class="s-sub1"><img src="images/gadgetr.jpg" alt=""></div>
+          <div class="s-sub2">
+            <span>Donate Devices, Create Impact.</span>
+            <span>5782</span>
+            <span> <a href="#Donation" class="btn1">Donate</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <!-- end service -->
+  <!-- mission -->
+  <section id="mission">
+    <span class="m-tittle">Our Missions</span> <br>
+    <span class="m-qoute">The mission of donation is to support those in need with love and compassion.</span>
+    <div class="gallery-wrap">
+      <img src="images/back.png" alt="" id="backBtn">
+      <div class="gallery">
+        <div class="gal1">
+          <span> <img src="images/i1.jpg" alt=""></span>
+          <span> <img src="images/i2.jpg" alt=""></span>
+          <span> <img src="images/i7.jpg" alt=""></span>
+        </div>
+        <div class="gal1">
+          <span> <img src="images/i4.jpg" alt=""></span>
+          <span> <img src="images/i5.jpg" alt=""></span>
+          <span> <img src="images/i6.jpg" alt=""></span>
+        </div>
+      </div>
+      <img src="images/next.png" alt="" id="nextBtn">
+    </div>
+  </section>
+  <!-- end mission -->
+  <!-- form  -->
+  <section id="Donation">
+    <div class="donate">
+      <div class="dimg"><img src="images/i5.jpg" alt=""></div>
+
+      <div class="donate1">
+        <form action="Donate.php" method="post">
+          <h1 class="form_title">Donate</h1>
+          <div class="d_donate">
+            <input type="text" name="fname" id="name" class="f_input" required>
+            <label for="name" class="f_label">Name</label>
+          </div>
+          <div class="d_donate">
+            <input type="text" name="lname" id="lname" class="f_input" required>
+            <label for="lname" class="f_label">Lastname</label>
+          </div>
+          <div class="d_donate">
+            <input type="email" name="email" id="email" class="f_input" required>
+            <label for="email" class="f_label">Email</label>
+          </div>
+          <div class="d_donate">
+            <input type="text" name="tnumber" id="pnumber" class="f_input" required>
+            <label for="pnumber" class="f_label">Contact</label>
+          </div>
+          <div class="d_donate">
+            <input type="text" name="addres" id="addres" class="f_input" required>
+            <label for="addres" class="f_label">Address</label>
+          </div>
+          <div class="d_donate">
+            <select name="typec1" id="typec1" class="f_input">
+              <option value="Food">Donation</option>
+              <option value="Fund">Request</option>
+            </select>
+            <label for="typec1" class="f_label">Choose Donation or Request</label>
+          </div>
+          <div class="d_donate">
+            <select name="typec" id="typec" class="f_input">
+              <option value="Food">Food</option>
+              <option value="Fund">Fund</option>
+              <option value="Cloths">Cloths</option>
+              <option value="Footwear">Footwera</option>
+              <option value="stationary">Stationary</option>
+              <option value="gadget">Gadget</option>
+            </select>
+            <label for="typec" class="f_label">Choose Donation or Wastage</label>
+          </div>
+          <div><input type="submit" value="Submit" id="submitbtn" class="submit"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- end -->
+  <section id="about">
+    <div class="about_us">
+      <p>About Us</p>
+      <p>Welcome to our donation website! Our platform is dedicated to connecting generous donors with individuals and
+        communities in need. We accept a variety of donations, including food, clothing, funds, footwear, gadgets,
+        stationary, and other essential items.
+
+        Our mission is to empower those in need by providing them with the necessary resources to improve their lives.
+        We work with a network of trusted organizations and community leaders to ensure that donations are distributed
+        to those who need them most.
+
+        We believe that every person deserves access to basic necessities, regardless of their background or
+        circumstances. Through our platform, we hope to create a more equitable and compassionate world.
+
+        Thank you for considering donating to our cause. Your support will make a difference in the lives of many
+        individuals and communities.
+      </p>
+    </div>
+    <div class="fuser">
+      <p class="f_title">Testimonials</p>
+      <div class="R_main1">
+        <div class="f_feed">
+          <div class="f_img1"><img src="images/review_1.png" alt=""></div>
+          <h2>Brain Henry</h2>
+          <p class="f_star"><span class="fa fa-star"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+          </p>
+          <p class="fp">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptatum voluptatibus
+            reiciendis. Eligendi
+            rerum, </p>
+        </div>
+        <div class="f_feed">
+          <div class="f_img1"><img src="images/review_3.png" alt=""></div>
+          <h2>Angel</h2>
+          <p class="f_star"><span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star"></span>
+          </p>
+          <p class="fp">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptatum voluptatibus
+            reiciendis. Eligendi
+            rerum,</p>
+        </div>
+        <div class="f_feed">
+          <div class="f_img1"><img src="images/review_4.png" alt=""></div>
+          <h2>Dominic</h2>
+          <p class="f_star"><span class="fa fa-star"></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star "></span>
+            <span class="fa fa-star  "></span>
+            <span class="fa fa-star"></span>
+          </p>
+          <p class="fp">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste voluptatum voluptatibus
+            reiciendis. Eligendi
+            rerum,</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+<!-- contact us -->
+  <section id="contact_us">
+    <img src="images/logo.png" alt="">
+    <div class="R_contact">
+      <div class="R_contact1">
+        <h2>Contact Us</h2>
+        <p>kasavanahalli kaikondrahalli lake <br>Bangalore-560035</p>
+        <p> <span><i class="fa-solid fa-envelope"></i></span> <span>Revu8275@gmail.com</span> </p>
+        <p> <span><i class="fa-solid fa-phone"></i></span>8310611109<span></span> </p>
+        <p class="c_link">
+          <a href=""><i class="fa-brands fa-github" style="color: black;"></i></a>
+          <a href=""><i class="fa-brands fa-instagram" style="color: red;"></i></a>
+          <a href=""><i class="fa-brands fa-facebook" style="color: blue;"></i></a>
+          <a href="https://github.com/Revappatanga"><i class="fa-brands fa-linkedin"
+              style="color: lightskyblue;"></i></a>
+          <a href=""><i class="fa-brands fa-twitter" style="color:#3366FF;"></i></a>
+        </p>
+      </div>
+      <div class="R_contact2">
+        <h2>Useful link</h2>
+        <p class="c_slink"><a href="#home">home</a></p>
+        <p class="c_slink"><a href="#services">service</a></p>
+        <p class="c_slink"><a href="#mission">Mission</a></p>
+        <p class="c_slink"><a href="#Donation">Donate</a></p>
+        <p class="c_slink"><a href="#about">About Us</a></p>
+      </div>
+      <div class="R_contact3">
+        <h2>Feedback</h2>
+        <form action="feedback.php" method="post">
+          <p class="c_input"><input type="text" name="fename" placeholder="Name" class="feedback"></p>
+          <p class="c_input"><input type="email" class="feedback" name="email" placeholder="Email"></p>
+          <p class="c_input"><input type="textarea" name="comment" class="feedback" placeholder="Leave a comment"></p>
+          <p class="c_input"><input type="submit" value="Submit" id="cbtn" class="submit"></p>
+        </form>
+      </div>
+    </div>
+    <div class="copyright"> Copyright &#169;2022 DivineBites.Designed By Revu Tanga</div>
+  </section>
+  <!-- end -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
